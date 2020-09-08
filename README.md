@@ -1,6 +1,6 @@
 # am-to-chtml
 
-This MathJax wrapper converts AsciiMath (AM) to CompactHypertextMarkUpLanguage (CHTML). This package doesn't use any webworkers, webviews; so It can be used for your NodeJS, React and React Native projects.
+This MathJax wrapper converts AsciiMath (AM) to CompactHypertextMarkUpLanguage (CHTML). This package doesn't use any webworkers, webviews ; so It can be used for your NodeJS, React and React Native projects.
 
 **This project is still in its early development stages.**
 
@@ -22,10 +22,10 @@ const AMToCHTML = require("am-to-chtml");
 const myAMEquation = "d/dxf(x)=lim_(h->0)(f(x+h)-f(x))/h";
 
 const options = {
-        width: 1280,
-        ex: 8,
-        em: 16,
-        fontURL: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2"
+    width: 1280,
+    ex: 8,
+    em: 16,
+    fontURL: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2"
 };
 
 const CHTMLEquation = AMToCHTML(myAMEquation, options); // returns <mjx-math class=" MJX-TEX"><mjx-mstyle><mjx-mfrac><mjx-frac> ...
