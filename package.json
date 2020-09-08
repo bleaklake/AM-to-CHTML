@@ -1,7 +1,7 @@
 {
-  "name": "AM-to-CHTML",
-  "version": "0.1.0",
-  "description": "The MathJax library to convert AsciiMath to CHTML",
+  "name": "am-to-chtml",
+  "version": "0.2.0",
+  "description": "The MathJax wrapper to convert AsciiMath to CHTML",
   "main": "AMToCHTML.js",
   "keywords": [
     "AM",
@@ -9,10 +9,21 @@
     "CHTML",
     "MathJax"
   ],
-  "repository": "https://github.com/CreateurCreatif/AM-to-CHTML",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreatifCreateur/AM-to-CHTML.git"
+  },
   "author": "@CreateurCreatif",
   "license": "MIT",
   "dependencies": {
     "mathjax-full": "^3.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/CreatifCreateur/AM-to-CHTML/issues"
+  },
+  "homepage": "https://github.com/CreatifCreateur/AM-to-CHTML#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

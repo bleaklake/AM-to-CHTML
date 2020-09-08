@@ -1,4 +1,4 @@
-declare module "AM-to-CHTML" {
+declare module "am-to-chtml" {
 
     interface options {
         width?: number,
