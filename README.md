@@ -65,8 +65,8 @@ const CHTMLEquation = AMToCHTML(myAMEquation); // returns <mjx-math class=" MJX-
 
 ### Useful links
 
-This wrapper is inspired by this project : https://github.com/mathjax/MathJax-demos-node/tree/master/direct
+This wrapper is inspired by this project : https://github.com/mathjax/MathJax-demos-node/tree/master/direct.
 
 ### Typescript
 
-You **DON'T** have to install any types `@types/am-to-chtml`
+You **DON'T** have to install any types `@types/am-to-chtml`.
